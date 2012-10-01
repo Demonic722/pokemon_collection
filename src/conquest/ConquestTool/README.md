@@ -12,8 +12,7 @@ Special thanks to the following contributers:
 ## Instructions
 
  * Navigate to [this](http://serebii.net/conquest/pokemon.shtml) webpage
- * Press `ctrl+u` to view the `SHTML`
- * `Save` the file
+ * `Save` the `SHTML` by pressing `ctrl+s`
  * `Open` the file in Conquest Tool
  
 ## Screenshots
