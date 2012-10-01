@@ -36,8 +36,9 @@ namespace Conquest_Tool
         private void Compile_Click(object sender, EventArgs e)
         {
             int counter = 0;
-            CodeBox.Text = ":Wild Pokemon Modifier\r\n\r\n";
-            Match m = Regex.Match(data, "<td class=\"cen\"><a href=\"/spindex-bw/[0-9]{3}.shtml\">.*\\w</a>");
+            CodeBox.Text = !String.IsNullOrEmpty(CodeBox.Text) 
+                           ? ":Wild Pokemon Modifier\r\n\r\n" 
+                           : "";
 
             if (String.IsNullOrEmpty(FilePath.Text))
             {
@@ -46,6 +47,8 @@ namespace Conquest_Tool
                 return;
             }
 
+            Match m = Regex.Match(data, "<td class=\"cen\"><a href=\"/spindex-bw/[0-9]{3}.shtml\">.*\\w</a>");
+
             while (m.Success)
             {
                 string dNum = m.Value.Substring(37, 3);
@@ -53,7 +56,13 @@ namespace Conquest_Tool
                 name = name.Substring(name.LastIndexOf('>') + 1);
 
                 HexListBox.Text += String.Format("{0} - {1:X2} - {2}\r\n", dNum, counter, name);
-                CodeBox.Text += String.Format("::{0}\r\n52045804 E2431001\r\n02045808 E3A060{1:X2}\r\nD2000000 00000000\r\n\r\n", name, counter);
+                CodeBox.Text += String.Format(
+                    "::{0}\r\n52045804 E2431001" +
+                    "\r\n02045808 E3A060{1:X2}" + 
+                    "\r\nD2000000 00000000\r\n\r\n", 
+                    name, counter
+                );
+
                 counter++;
                 m = m.NextMatch();
             }
