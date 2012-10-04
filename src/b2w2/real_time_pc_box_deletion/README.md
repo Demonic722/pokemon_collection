@@ -9,7 +9,6 @@ Special thanks to the following contributer(s):
 ## Compatibility
 
  * Pokemon: Black 2 (J)
-
  * Pokemon: White 2 (J)
 
 ## Usage

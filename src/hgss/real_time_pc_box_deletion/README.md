@@ -9,7 +9,6 @@ Special thanks to the following contributer(s):
 ## Compatibility
 
  * Pokemon: HeartGold (U) [IPKE 4DFFBF91]
-
  * Pokemon: SoulSilver (U) [IPGE 2D5118CA]
 
 ## Usage
