@@ -1,3 +1,3 @@
-# Pokemon ARDS Codes
+# Pokemon Collection
 
-This is a suite of Action Replay codes that I've made for Pokemon games.
+This is a suite of various things that I've done for Pokemon games.

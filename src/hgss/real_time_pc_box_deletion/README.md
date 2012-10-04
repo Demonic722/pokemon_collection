@@ -1,5 +1,11 @@
 # Real Time PC Box Deletion
 
+## Contributers
+
+Special thanks to the following contributer(s):
+ 
+ * [Codr and PokeGen](http://projectpokemon.org/forums/member.php?14421-Codr)
+
 ## Compatibility
 
  * Pokemon: HeartGold (U) [IPKE 4DFFBF91]
