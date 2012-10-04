@@ -3,7 +3,6 @@
 ## Compatibility
 
  * Pokemon: Black 2 (J)
-
  * Pokemon: White 2 (J)
 
 ## Usage
