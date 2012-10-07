@@ -5,12 +5,7 @@
 Special thanks to the following contributer(s):
  
  * [Codr and PokeGen](http://projectpokemon.org/forums/member.php?14421-Codr)
-
-## Compatibility
-
- * Pokemon: Black 2 (J)
- * Pokemon: White 2 (J)
-
+ 
 ## Usage
 
 Press L+R to receive 18 Master Balls, 30 Ultra Balls and 30 Great Balls.

@@ -1,10 +1,5 @@
 # Wild Pokemon Modifier
 
-## Compatibility
-
- * Pokemon: Black 2 (J)
- * Pokemon: White 2 (J)
-
 ## Usage
 
  * Press Select to receive 649 Master Balls and 100 Ultra Balls.
