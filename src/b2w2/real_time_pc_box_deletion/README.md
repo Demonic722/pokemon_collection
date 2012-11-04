@@ -1,8 +1,8 @@
 # Real Time PC Box Deletion
 
-## Contributers
+## Contributors
 
-Special thanks to the following contributer(s):
+Special thanks to the following contributor(s):
  
  * [Codr and PokeGen](http://projectpokemon.org/forums/member.php?14421-Codr)
  
